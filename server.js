@@ -1,7 +1,7 @@
 const Fastify = require('fastify');
 const os = require('os');
 
-const { port } = require('./src/config');
+const { port } = require('./config');
 
 const fastify = Fastify({ logger: true });
 
